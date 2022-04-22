@@ -1,0 +1,34 @@
+[
+    {
+        "nombre": "Martin Fierro",
+        "autor": "Jose Hernandez",
+        "editorial": "Penguin",
+        "anio": "2018",
+        "precio": "600",
+        "imagen": "img/Libro-Martin-fierro.jpg"
+    },
+    {
+        "nombre": "El libro de la selva",
+        "autor": "Rudyard Kipling",
+        "editorial": "Editorial Porrúa México",
+        "anio": "2020",
+        "precio": "500",
+        "imagen": "img/Libro-El-libro-de-la-selva.jpg"
+    },
+    {
+        "nombre": "El mago de Oz",
+        "autor": "L.F. Baum",
+        "editorial": "Anaya",
+        "anio": "2019",
+        "precio": "700",
+        "imagen": "img/Libro-Mago-de-Oz.jpg"
+    },
+    {
+        "nombre": "El túnel",
+        "autor": "Ernesto Sabato",
+        "editorial": "Seix Barral",
+        "anio": "2010",
+        "precio": "500",
+        "imagen": "img/Libro-El-tunel.jpg"
+    }
+]
