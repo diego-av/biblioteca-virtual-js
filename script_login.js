@@ -1,4 +1,3 @@
-// Inicio Storage
 function guardarDatos(storage) {
   let user = document.getElementById("email").value;
   let pass = document.getElementById("contrasenia").value;
@@ -21,10 +20,6 @@ let recordar = document.getElementById("recordarme");
 let btnLogin = document.getElementById("btnIngresar");
 
 btnLogin.addEventListener("click", () => {
-  if (recordar.checked) {
-    guardarDatos("localStorage");
-  } else {
-    guardarDatos("sessionStorage");
-  }
+  recordar.checked ? guardarDatos("localStorage") : guardarDatos("sessionStorage");
+
 });
-// Fin Storage
